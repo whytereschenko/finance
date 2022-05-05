@@ -71,7 +71,7 @@ main {
             text-align: center;
             color: #fff;
             #p1{
-                margin-top: -10px;
+                margin-top: 0px;
                 font-family: 'Le Beaune New';
                 font-size: 22px;
                 line-height: 1.2;
@@ -79,7 +79,7 @@ main {
                 letter-spacing: 0.05em;
             }
             h1 {
-                margin-top: -50px;
+                margin-top: 0px;
                 font-family: 'Le Beaune New';
                 font-size: 100px;
                 line-height: 100px;
@@ -135,6 +135,8 @@ main {
                 color: #999999;
             }
             h3 {
+                margin-top: 30px;
+                text-transform: uppercase;
                 font-family: 'Le Beaune New';
                 font-size: 42px;
                 line-height: 1.2;
@@ -178,6 +180,7 @@ main {
                     height: 400px;
                 }
                 h3 {
+                    margin-top: 15px;
                     padding-left: 36px;
                     font-family: 'Le Beaune New';
                     font-size: 22px;
@@ -187,8 +190,8 @@ main {
                     color: #222222;
                 }
                 p {
+                    margin-top: 15px;
                     padding-left: 36px;
-                    margin-top: 38px;
                     font-family: Jost;
                     font-size: 18px;
                     line-height: 27px;
@@ -233,6 +236,8 @@ main {
             color: #ffffff;
         }
         h3 {
+            margin-top: 50px;
+            text-transform: uppercase;
             font-family: 'Le Beaune New';
             font-size: 50px;
             line-height: 1.2;
@@ -287,6 +292,7 @@ main {
                     color: #999999;
                 }
                 h3 {
+                    text-transform: uppercase;
                     font-family: 'Le Beaune New';
                     font-size: 42px;
                     line-height: 1.2;
@@ -378,6 +384,8 @@ main {
                 color: #999999;
             }
             h3 {
+                margin-top: 25px;
+                text-transform: uppercase;
                 text-align: center;
                 font-family: 'Le Beaune New';
                 font-size: 42px;
@@ -386,17 +394,17 @@ main {
                 color: #222222;
             }
             .instructor_container {
-                margin-top: 50px;
+                margin-top: 25px;
                 display: flex;
                 flex-wrap: wrap;
                 .instructor {
                     margin: auto;
                     margin-top: 50px;
-                    #instructorImage1 {background-image: url(src/people/Vincent.jpg);}
-                    #instructorImage2 {background-image: url(src/people/Stella.jpg);}
-                    #instructorImage3 {background-image: url(src/people/Ernest.jpg);}
-                    #instructorImage4 {background-image: url(src/people/Thomas.jpg);}
-                    #instructorImage5 {background-image: url(src/people/Monica.jpg);}
+                    #instructorImage1 {background-image: url(../src/people/Vincent.jpg);}
+                    #instructorImage2 {background-image: url(../src/people/Stella.jpg);}
+                    #instructorImage3 {background-image: url(../src/people/Ernest.jpg);}
+                    #instructorImage4 {background-image: url(../src/people/Thomas.jpg);}
+                    #instructorImage5 {background-image: url(../src/people/Monica.jpg);}
                     .instructorImage {
                         width: 360px;
                         height: 400px;
@@ -406,7 +414,7 @@ main {
                         background-size: cover;
                     }
                     h5 {
-                        margin-top: -5px;
+                        margin-top: 15px;
                         text-align: left;
                         padding-left: 20px;
                         font-family: 'Le Beaune New';
@@ -417,7 +425,7 @@ main {
                         color: #222222;
                     }
                     p {
-                        margin-top: 0px;
+                        margin-top: -25px;
                         text-align: left;
                         padding-left: 20px;
                         font-family: Jost;
@@ -431,7 +439,7 @@ main {
         }
     }
     .eighthBlock {
-        background-image: url(src/bg_8.png);
+        background-image: url(../src/bg_8.png);
         background-position-x: center;
         height: 872px;
         background-color: #f3f3f3;
