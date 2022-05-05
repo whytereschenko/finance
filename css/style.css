@@ -631,23 +631,23 @@ main .seventhBlock .seventhBlock_container .instructor_container .instructor {
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor #instructorImage1 {
-  background-image: url(src/people/Vincent.jpg);
+  background-image: url(../src/people/Vincent.jpg);
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor #instructorImage2 {
-  background-image: url(src/people/Stella.jpg);
+  background-image: url(../src/people/Stella.jpg);
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor #instructorImage3 {
-  background-image: url(src/people/Ernest.jpg);
+  background-image: url(../src/people/Ernest.jpg);
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor #instructorImage4 {
-  background-image: url(src/people/Thomas.jpg);
+  background-image: url(../src/people/Thomas.jpg);
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor #instructorImage5 {
-  background-image: url(src/people/Monica.jpg);
+  background-image: url(../src/people/Monica.jpg);
 }
 
 main .seventhBlock .seventhBlock_container .instructor_container .instructor .instructorImage {
@@ -683,7 +683,7 @@ main .seventhBlock .seventhBlock_container .instructor_container .instructor p {
 }
 
 main .eighthBlock {
-  background-image: url(src/bg_8.png);
+  background-image: url(../src/bg_8.png);
   background-position-x: center;
   height: 872px;
   background-color: #f3f3f3;
