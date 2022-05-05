@@ -392,11 +392,11 @@ main {
                 .instructor {
                     margin: auto;
                     margin-top: 50px;
-                    #instructorImage1 {background-image: url(/src/people/Vincent.jpg);}
-                    #instructorImage2 {background-image: url(/src/people/Stella.jpg);}
-                    #instructorImage3 {background-image: url(/src/people/Ernest.jpg);}
-                    #instructorImage4 {background-image: url(/src/people/Thomas.jpg);}
-                    #instructorImage5 {background-image: url(/src/people/Monica.jpg);}
+                    #instructorImage1 {background-image: url(src/people/Vincent.jpg);}
+                    #instructorImage2 {background-image: url(src/people/Stella.jpg);}
+                    #instructorImage3 {background-image: url(src/people/Ernest.jpg);}
+                    #instructorImage4 {background-image: url(src/people/Thomas.jpg);}
+                    #instructorImage5 {background-image: url(src/people/Monica.jpg);}
                     .instructorImage {
                         width: 360px;
                         height: 400px;
@@ -431,7 +431,7 @@ main {
         }
     }
     .eighthBlock {
-        background-image: url(/src/bg_8.png);
+        background-image: url(src/bg_8.png);
         background-position-x: center;
         height: 872px;
         background-color: #f3f3f3;
