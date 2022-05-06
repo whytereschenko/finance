@@ -114,6 +114,7 @@ select {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
+  text-transform: none;
   display: block;
 }
 
@@ -186,6 +187,13 @@ header .topInfo_container .topInfo:last-child {
       -ms-flex-pack: end;
           justify-content: end;
   padding-right: 10%;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  /* Важно для футера */
 }
 
 main .navigation_container {
@@ -839,4 +847,72 @@ main .eighthBlock .news_container_start {
       -ms-flex-pack: start;
           justify-content: start;
   padding-left: 1%;
+}
+
+footer {
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background-color: #17082d;
+}
+
+.footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerColumn {
+  margin-top: 25px;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 40px;
+  text-align: left;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.column_text_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.column_text {
+  width: 130px;
+}
+
+p {
+  font-family: Jost;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #c0d0db;
+  text-decoration: none;
+}
+
+a {
+  font-family: Jost;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  color: #c0d0db;
+  text-decoration: none;
+}
+
+.infoTitles {
+  font-family: Jost;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #e3e6ea;
+  margin-bottom: 15px;
+}
+
+.first_text_footer {
+  color: #8dd7e5;
 }

@@ -36,6 +36,7 @@ header {
     }
 }
 main {
+    flex: 1 1 auto; /* Важно для футера */
     .navigation_container {
         position: sticky;
         top: 0;
@@ -554,3 +555,56 @@ main {
         }
     }
 }
+footer {
+    height: 260px;
+    display: flex;
+    text-align: center;
+    background-color: #17082d;
+  }
+  .footerContainer {
+    display: flex;
+  }
+  .footerColumn {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 40px;
+    text-align: left;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+  .column_text_container {
+      display: flex;
+  }
+  .column_text {
+      width: 130px;
+  }
+  p {
+    font-family: Jost;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #c0d0db;
+    text-decoration: none;
+  }
+  a {
+    font-family: Jost;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #c0d0db;
+    text-decoration: none;
+  }
+  .infoTitles {
+    font-family: Jost;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #e3e6ea;
+    margin-bottom: 15px;
+  }
+  .first_text_footer {
+    color: #8dd7e5;
+  }
