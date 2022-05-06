@@ -144,6 +144,10 @@ body {
   background-color: #030f27;
 }
 
+header {
+  background-color: #17082d;
+}
+
 header .topInfo_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,13 +188,17 @@ header .topInfo_container .topInfo:last-child {
   padding-right: 10%;
 }
 
-header .navigation_container {
+main .navigation_container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #030F27;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header .navigation_container .logo {
+main .navigation_container .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -198,7 +206,7 @@ header .navigation_container .logo {
   margin-right: auto;
 }
 
-header .navigation_container .navigation {
+main .navigation_container .navigation {
   width: 45%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,14 +217,16 @@ header .navigation_container .navigation {
   text-transform: uppercase;
 }
 
-header .navigation_container .navigation:first-child {
+main .navigation_container .navigation:first-child {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
 }
 
 main .firstBlock {
-  background-color: #272727;
+  background-image: url(../src/jimmy-woo-wzoFwaKwP5M-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
   height: 920px;
   display: flow-root;
 }
@@ -583,7 +593,6 @@ main .sixthBlock .sixthBlock_container .column h6 {
 main .sixthBlock .sixthBlock_container .verticalLine_sixthBlock {
   width: 1px;
   height: 99px;
-  opacity: 0.5;
   background-color: #ffffff;
 }
 
@@ -712,7 +721,6 @@ main .eighthBlock .eighth_container {
 }
 
 main .eighthBlock .eighth_container #varticalLine {
-  margin-top: 100px;
   width: 1px;
   height: 100px;
   background-color: #bdbcbc;
@@ -745,52 +753,78 @@ main .eighthBlock .eighth_container .title_a h3 {
 main .eighthBlock .news_container {
   margin-top: 100px;
   width: 50%;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
+main .eighthBlock .news_container button {
+  width: 50px;
+  background-color: #f3f3f3;
+  border: none;
+}
+
+main .eighthBlock .news_container button:hover {
+  background-color: #e4e4e4;
+}
+
+main .eighthBlock .news_container button:first-child {
+  margin-right: 20px;
+}
+
+main .eighthBlock .news_container button:last-child {
+  margin-left: 20px;
+}
+
 main .eighthBlock .news_container .news {
-  width: 570px;
+  width: 500px;
+  height: 600px;
   margin-bottom: 30px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 30px 50px 0px rgba(3, 15, 39, 0.1);
+          box-shadow: 0px 30px 50px 0px rgba(3, 15, 39, 0.1);
 }
 
 main .eighthBlock .news_container .news img {
-  width: 570px;
+  width: 500px;
   height: 400px;
 }
 
-main .eighthBlock .news_container .news h3 {
-  padding-left: 36px;
+main .eighthBlock .news_container .news p {
+  margin-left: 15px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: 'Jost';
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 400;
+  color: #bbbbbb;
+}
+
+main .eighthBlock .news_container .news h4 {
+  margin-left: 15px;
+  margin-top: 28px;
+  text-transform: uppercase;
   font-family: 'Le Beaune New';
   font-size: 22px;
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0.05em;
   color: #222222;
-}
-
-main .eighthBlock .news_container .news p {
-  padding-left: 36px;
-  margin-top: 38px;
-  font-family: Jost;
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
-  color: #696969;
-  margin-bottom: 26px;
+  margin-bottom: 38px;
 }
 
 main .eighthBlock .news_container .news a {
-  padding-left: 36px;
-  font-family: 'Jost - Semi';
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: 'Jost';
   font-size: 13px;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #777777;
-  text-decoration: none;
 }
 
 main .eighthBlock .news_container_end {
